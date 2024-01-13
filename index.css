@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #28baeb;
+  border-radius: 25px;
+  border: 1px solid #bfb5b5;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr;
+}
+
+.left-side {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-info img {
+  width: 7.375rem;
+  margin-top: 4.1rem;
+}
+
+.profile-info p {
+  font-weight: 100;
+  text-align: center;
+}
+
+.right-side {
+  background-color: white;
+  border-radius: 25px;
+  padding: 2.31rem 2.5rem;
+}
+
+.work-expierence-part-wrapper {
+  /* display: flex; */
+  /* column-gap: 70px; */
+  /* padding-left: 6rem; */
+  /* column-gap: 70px; */
+  padding-left: 6rem;
+  /* display: grid; */
+  /* grid-template-columns: 108px 1fr; */
+  /* justify-items: center; */
+  /* align-items: center; */
+  display: table;
+}
+
+#job-description {
+  display: table-cell;
+
+  min-height: 100%;
+  
+  
+}
+
+#work-year {
+  display: table-cell;
+  padding-right: 30px;
+  min-height: 100%;
+}
+
+.work-expierence-part-wrapper h4 {
+  display: flex;
+  line-height: normal;
+
+}
+
+.work-expierence-part-wrapper p {
+  font-size: 16px;
+  color: gray;
+}
+
+.progress-bar-item {
+  padding: 3px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.black {
+  margin-bottom: 2px;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.grey {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 2px;
+}
+
+.progress-bar {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.progress-bar > div {
+  border-radius: 20px;
+  height: 5px;
+  background-color: #28baeb;
+  width: 95%;
+  margin: 2px;
+}
+
+
